@@ -68,7 +68,17 @@
 	      (highlight  . "#fda50f")
 	      (warning	  . "#ff0000")
 	      (success	  . "#00ff00")
-	      (string     . "#3c5e2b")))))
+	      (string     . "#3c5e2b")))
+
+    (yellow . ((background . "#ffdf2d" )
+	       (foreground . "#000000")
+	       (weak	  . "#888888")
+	       (weaker	  . "#dddddd")
+	       (weakest    . "#efefef")
+	       (highlight  . "#dacc8f")
+	       (warning	  . "#ff0000")
+	       (success	  . "#00ff00")
+	       (string     . "#3c5e2b")))))
 
 (defmacro almost-mono-themes--variant-with-colors (variant &rest body)
   "Execute BODY in a scope where the different colors for given VARIANT is bound."
